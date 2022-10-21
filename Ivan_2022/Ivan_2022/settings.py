@@ -37,8 +37,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'project.app.ProjectConfig'
-    'blog.app.BlogConfig'
+    'project',
+    'blog'
 ]
 
 MIDDLEWARE = [
@@ -56,7 +56,7 @@ ROOT_URLCONF = 'Ivan_2022.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': ['Ivan_2022/templates'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
